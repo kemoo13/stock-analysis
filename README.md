@@ -13,19 +13,19 @@ Our client, Steve loved the original workbook that we created for him. Now, he w
 
 ### Analysis
 To begin, I downloaded challenge_start_code VBS file that provided me with the code to refactor in Excel. I then copied the code into the Visual Basic Editor. I began refactoring by creating a tickerIndex variable and setting it to zero. Three output arrays were then created; tickerVolumes, tickerStartingPrices and tickerEndingPrices. The tickerVolumes array was set as a Long data type while tickerStartingPrices and tickerEndingprices were set as Single data types. A loop was created to initialize the tickerVolumes to zero. Another for loop was then created to loop through all of the rows of the spreadsheet. Within the second for loop (j), a script was written to increase the current tickerVolumes variable and add the ticker volume for the current stock ticker. To do this, a new variable tickerIndex, was created. We then check if the current row is the first row using the tickerIndex. If this proves to be true, then we assign that variable to the current starting price. Then we check if the current row is the last row selected, then we assign this variable the current ending price. We then increase the tickerIndex is the next row’s ticker does not match the previous one. Another loop was then created to loop through the arrays in order to output the “Ticker”, “Total Daily Volume” and “Return” in the columns of the worksheet. The code has now been refactored and is ready to be run to confirm that they are the same as the example. 
-<img src="Results%20images/Theater%20Outcomes%20Based%20on%20Launch%20Date.png" width="300">
-<img src="Resources/Theater_Oucomes_vs_Launch.png" width="300">
+<img src="Resources/2017_table.png" width="300">
+<img src="Resources/2018_table.png" width="300">
 
 The cells for the “Return” column were formatted in order to make it easier to see which company had a positive or negative return for that year. 
 
 A pop-up message will appear on the screen showing the elapsed run time for the script for each year. In the original code, the elapsed run time exceeded four seconds.
 <img src="Resources/Original_2017.png" width="300">
-<img src="Results%20images/Theater%20Outcomes%20Based%20on%20Launch%20Date.png" width="300">
+<img src="Resources/2018_original.png" width="300">
 
 
 Once the code was refactored, the elapsed runtime was lessened by roughly a second for each year. Though, I believe this may be improved upon to run even better.
-<img src="Results%20images/Theater%20Outcomes%20Based%20on%20Launch%20Date.png" width="300">
-<img src="Resources/Theater_Oucomes_vs_Launch.png" width="300">
+<img src="Resources/2017_runtime.png" width="300">
+<img src="Resources/2018_runtime.png" width="300">
 
 
 
