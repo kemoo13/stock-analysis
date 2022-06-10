@@ -20,11 +20,13 @@ To begin, I downloaded challenge_start_code VBS file that provided me with the c
 The cells for the “Return” column were formatted in order to make it easier to see which company had a positive or negative return for that year. 
 
 A pop-up message will appear on the screen showing the elapsed run time for the script for each year. In the original code, the elapsed run time exceeded four seconds.
+
 <img src="Resources/Original_2017.png" width="300">
 <img src="Resources/2018_original.png" width="300">
 
 
 Once the code was refactored, the elapsed runtime was lessened by roughly a second for each year. Though, I believe this may be improved upon to run even better.
+
 <img src="Resources/2017_runtime.png" width="300">
 <img src="Resources/2018_runtime.png" width="300">
 
